@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestList>
+	<Test input = "1+2+345" expected = "1,+,2,+,345"/>
+	<Test input = "(+)" expected = "(,+,)"/>
+	<Test input = "111-2*(3+45)" expected = "111,-,2,*,(,3,+,45,)"/>
+	<Test input = "a+b-c" expected = "a,+,b,-,c"/>
+</TestList>
